@@ -13,6 +13,8 @@ namespace DemoKo.Models
 
         public string Type { get; set; }
 
+        public string Description { get; set; }
+
         public List<string> Moves { get; set; }
     }
 }
