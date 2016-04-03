@@ -9,10 +9,10 @@ namespace DemoKo.Repositories
 {
     public class Repository<T> where T : Entity
     {
-        private ConcurrentDictionary<int, T> EntitySet;
+        private IDictionary<int, T> EntitySet;
 
         public Repository() {
-            this.EntitySet = new ConcurrentDictionary<int, T>();
+            this.EntitySet = Database.GetTableOf<T>();
         }
 
         public T Get(int Id)
@@ -34,7 +34,7 @@ namespace DemoKo.Repositories
                 throw new Exception("El Id de la entidad no es 0");
 
             anEntity.Id = this.GetNextIdentity();
-            this.EntitySet.TryAdd(anEntity.Id, anEntity);
+            this.EntitySet.Add(anEntity.Id, anEntity);
 
             return anEntity;
         }
@@ -49,17 +49,14 @@ namespace DemoKo.Repositories
             return anEntity;
         }
 
-        public T Remove(T anEntity)
+        public void Remove(T anEntity)
         {
-            return this.Remove(anEntity.Id);
+            this.Remove(anEntity.Id);
         }
 
-        public T Remove(int Id)
+        public void Remove(int Id)
         {
-            T deleted;
-            this.EntitySet.TryRemove(Id, out deleted);
-
-            return deleted;
+            this.EntitySet.Remove(Id);
         }
 
         private int GetNextIdentity()
@@ -67,7 +64,7 @@ namespace DemoKo.Repositories
             if(!this.EntitySet.Keys.Any())
                 return 0;
 
-            return this.EntitySet.Keys.Max();
+            return this.EntitySet.Keys.Max() + 1;
         }
     }
 }

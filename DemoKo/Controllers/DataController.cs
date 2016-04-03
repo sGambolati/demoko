@@ -17,16 +17,18 @@ namespace DemoKo.Controllers
             this.PokemonRepository = new Repository<Pokemon>();
         }
 
+        [HttpGet]
         public JsonResult ListAllPokemon()
         {
             var result = this.PokemonRepository.List();
-            return Json(result);
+            return Json(result, JsonRequestBehavior.AllowGet);
         }
 
+        [HttpGet]
         public JsonResult GetPokemon(int id)
         {
             var result = this.PokemonRepository.Get(id);
-            return Json(result);
+            return Json(result, JsonRequestBehavior.AllowGet);
         }
     }
 }
