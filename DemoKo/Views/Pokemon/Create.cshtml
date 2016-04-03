@@ -1,0 +1,47 @@
+﻿@{
+    ViewBag.Title = "Create";
+    //Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Manual Pokedex</h2>
+
+<form class="form-horizontal">
+    <fieldset>
+        <legend>Catch a Pokemon</legend>
+        <div class="form-group">
+            <label for="inputNombre" class="col-lg-2 control-label">Nombre:</label>
+            <div class="col-lg-10">
+                <input type="text" class="form-control" id="inputNombre" data-bind="value: name">
+            </div>
+
+            <label for="inputNumero" class="col-lg-2 control-label">Número:</label>
+            <div class="col-lg-10">
+                <input type="number" class="form-control" id="inputNumbero" data-bind="value: number">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="selectType" class="col-lg-2 control-label">Tipo de Pokémon:</label>
+            <div class="col-lg-10">
+                <select class="form-control" id="selectType" data-bind="options: availablesTypes, value: selectedType">
+                </select>
+            </div>
+        </div>
+
+    
+        <div class="form-group">
+            <div class="col-lg-10 col-lg-offset-2">
+                <button type="button" class="btn btn-primary" data-bind="click: send">Submit</button>
+                <button type="reset" class="btn btn-default">Cancel</button>
+            </div>
+        </div>
+    </fieldset>
+</form>
+
+@section scripts{
+    <script src="~/Scripts/Pokemon/pokemon.js"></script>
+    <script>
+        $(document).ready(function () {
+            ko.applyBindings(new PokemonViewModel());
+        });
+    </script>
+}
