@@ -11,12 +11,7 @@ function PokedexListViewModel() {
         $.get('/Data/ListAllPokemon'
             , ''
             , function (data) {
-                //self.pokemons.removeAll();
                 self.pokemons(data);
-                //data.forEach(function (e) {
-                //    self.pokemons.push(e);
-                //});
-
             });
     }
     function getImageUrlOf(aPokemon)

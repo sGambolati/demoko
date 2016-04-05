@@ -11,7 +11,6 @@ namespace DemoKo.Controllers
         //
         // GET: /Pokemon/
 
-        // TODO: Agregar descricion.
         // TODO: Usar el viewmodel Pokemon.cs
         // TODO: Propiedad calculada con el numero, traer el asset.
 
@@ -21,6 +20,11 @@ namespace DemoKo.Controllers
         }
 
         public ActionResult Create()
+        {
+            return View();
+        }
+
+        public ActionResult View(int id)
         {
             return View();
         }

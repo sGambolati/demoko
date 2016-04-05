@@ -59,3 +59,9 @@ textarea {
 .validation-summary-valid {
     display: none;
 }
+
+img.logo {
+    content:url('http://images.huffingtonpost.com/2016-02-25-1456380693-5476335-20th_Logo_Primary_cmyk930x676.jpg');
+    width: 100px;
+    border: 1px solid #1a6ecc;
+}
