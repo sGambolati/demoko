@@ -1,5 +1,7 @@
 ﻿var PokemonViewModel = function () {
 
+    var self = this;
+
     this.name = ko.observable("Pikachu");
     this.number = ko.observable("25");
     this.description = ko.observable("blahblah.");
@@ -20,6 +22,10 @@
         else {
             this.errorMessage("El pokémon sólo puede tener cuatro movimientos.");
         }
+    };
+
+    this.deleteAttack = function (attack) {
+        self.attacks.remove(attack);
     };
 
     //Error Handling

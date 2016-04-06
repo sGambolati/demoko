@@ -58,12 +58,14 @@
                 <thead>
                     <tr>
                         <th>#</th>
+                        <th></th>
                         <th>Nombre</th>
                     </tr>
                 </thead>
                 <tbody data-bind="foreach: attacks">
                     <tr>
                         <td data-bind="text: $index"></td>
+                        <td><a href="#" class="btn btn-danger" data-bind="click: $parent.deleteAttack">Borrar</a></td>
                         <td data-bind="text: $data"></td>
                     </tr>
                 </tbody>
