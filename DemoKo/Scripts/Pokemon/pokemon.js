@@ -7,6 +7,27 @@
     this.availablesTypes = ["Acero", "Agua", "Bicho", "Dragón", "Eléctrico", "Fantasma", "Fuego", "Hada", "Hielo", "Lucha", "Normal", "Planta", "Psíquico", "Roca", "Siniestro", "Tierra", "Veneno", "Volador"];
     this.selectedType = ko.observable("Eléctdddrico");
     
+    //Attacks
+    this.attacks = ko.observableArray([]);
+    this.newAttackName = ko.observable();
+
+    this.addAttack = function () {
+        if (this.attacks().length < 4)
+        {
+            this.attacks.push(this.newAttackName());
+            this.newAttackName("");
+        }
+        else {
+            this.errorMessage("El pokémon sólo puede tener cuatro movimientos.");
+        }
+    };
+
+    //Error Handling
+    this.errorMessage = ko.observable("");
+    this.hasErrorMessage = ko.computed(function () {
+        return (this.errorMessage() != "");
+    }, this);
+
     //Computed
     this.imageUrl = ko.computed(function () {
         var number = this.number();

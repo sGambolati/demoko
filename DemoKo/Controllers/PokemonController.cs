@@ -12,7 +12,7 @@ namespace DemoKo.Controllers
         // GET: /Pokemon/
 
         // TODO: Usar el viewmodel Pokemon.cs
-        // TODO: Propiedad calculada con el numero, traer el asset.
+        // TODO: Ataques
 
         public ActionResult Index()
         {
