@@ -46,11 +46,11 @@ namespace DemoKo
 
             pokemons.Add(new Pokemon()
             {
-                Name = "Pikachu",
-                Type = "Electrico",
-                Number = 25,
-                Description = "Whenever Pikachu comes across something new, it blasts it with a jolt of electricity. If you come across a blackened berry, it's evidence that this Pokémon mistook the intensity of its charge.",
-                Moves = new List<string>() { "Thunderbolt", "Quick Attack" },
+                Name = "Lucario",
+                Type = "Lucha",
+                Number = 448,
+                Description = "By catching the aura emanating from others, it can read their thoughts and movements.",
+                Moves = new List<string>() { "Pummel", "Quick Attack", "Growl" },
             });
 
             pokemons.Add(new Pokemon()

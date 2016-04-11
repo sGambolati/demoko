@@ -2,13 +2,14 @@
 
     var self = this;
 
+    this.id = ko.observable(0);
     this.name = ko.observable("Pikachu");
     this.number = ko.observable("25");
     this.description = ko.observable("blahblah.");
 
     this.availablesTypes = ["Acero", "Agua", "Bicho", "Dragón", "Eléctrico", "Fantasma", "Fuego", "Hada", "Hielo", "Lucha", "Normal", "Planta", "Psíquico", "Roca", "Siniestro", "Tierra", "Veneno", "Volador"];
-    this.selectedType = ko.observable("Eléctdddrico");
-    
+    this.selectedType = ko.observable("Eléctrico");
+
     //Attacks
     this.attacks = ko.observableArray([]);
     this.newAttackName = ko.observable();
@@ -60,6 +61,27 @@
 
 
     this.send = function () {
-        alert(this.selectedType());
+
+        $.ajax({
+            url: '/Data/AddPokemon',
+            type: 'post',
+            data: JSON.stringify(getData()),
+            contentType: 'application/json',
+            success: function() {
+                alert("Catched!");
+                window.location = '/';
+            }
+        });
     };
+    function getData()
+    {
+        return {
+            Id: self.id(),
+            Name: self.name(),
+            Number: self.number(),
+            Description: self.description(),
+            Moves: self.attacks(),
+            Type: self.selectedType()
+        };
+    }
 }

@@ -3,6 +3,8 @@
     <fieldset>
         <legend>Catch a Pokemon</legend>
         
+        <input type="hidden" id="inputId" data-bind="value: id" />
+
         <div data-bind="if: hasErrorMessage">
             <div class="alert alert-dismissible alert-danger">
                 <button type="button" class="close" data-dismiss="alert">&times;</button>

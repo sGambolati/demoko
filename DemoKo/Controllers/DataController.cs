@@ -30,5 +30,19 @@ namespace DemoKo.Controllers
             var result = this.PokemonRepository.Get(id);
             return Json(result, JsonRequestBehavior.AllowGet);
         }
+
+        [HttpPost]
+        public JsonResult AddPokemon(Pokemon pokemon)
+        {
+            this.PokemonRepository.Add(pokemon);
+            return Json("Ok");
+        }
+
+        [HttpPost]
+        public JsonResult UpdatePokemon(Pokemon pokemon)
+        {
+            this.PokemonRepository.Update(pokemon);
+            return Json("Ok");
+        }
     }
 }
