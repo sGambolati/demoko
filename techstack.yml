@@ -1,11 +1,11 @@
 repo_name: sGambolati/demoko
-report_id: d960e21646d21c52e28162804484e8f4
+report_id: 84e130f62930af32db5b58a44b28e8f1
 repo_type: Public
-timestamp: '2023-11-09T16:18:43+00:00'
-requested_by: leandro-galluppi
+timestamp: '2023-12-14T09:46:00+00:00'
+requested_by: sGambolati
 provider: github
 branch: master
-detected_tools_count: 31
+detected_tools_count: 32
 tools:
 - name: ASP.NET
   description: An open source web framework for building modern web apps and services
@@ -17,8 +17,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6755/2c45151a4a11d3a3c8e71bb34dd069d6_400x400.png
-  detection_source_url: DemoKo/DemoKo.csproj
-  detection_source: DemoKo/packages.config
+  detection_source_url: https://github.com/sGambolati/demoko/blob/master/DemoKo/DemoKo.csproj
+  detection_source: DemoKo/DemoKo.csproj
   last_updated_by: Leandro Galluppi
   last_updated_on: 2016-04-02 16:07:04.000000000 Z
 - name: C#
@@ -74,7 +74,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Front-End Frameworks
   image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
-  detection_source_url: DemoKo/packages.config
+  detection_source_url: https://github.com/sGambolati/demoko/blob/master/DemoKo/packages.config
   detection_source: DemoKo/packages.config
   last_updated_by: Sebastian Gambolati
   last_updated_on: 2016-04-03 22:16:44.000000000 Z
@@ -156,7 +156,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/2440/9TeXWBzR_400x400.jpg
-  detection_source_url: DemoKo/packages.config
+  detection_source_url: https://github.com/sGambolati/demoko/blob/master/DemoKo/packages.config
   detection_source: DemoKo/packages.config
   last_updated_by: Leandro Galluppi
   last_updated_on: 2016-04-02 16:07:04.000000000 Z
@@ -171,7 +171,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/12850/default_0f5233770e71818507f2339042e7e61bef904e70.png
-  detection_source_url: DemoKo/packages.config
+  detection_source_url: https://github.com/sGambolati/demoko/blob/master/DemoKo/packages.config
   detection_source: DemoKo/packages.config
   last_updated_by: Leandro Galluppi
   last_updated_on: 2016-04-02 16:07:04.000000000 Z
@@ -185,7 +185,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13591/default_2fed3dd41a57ad03758b88d7d49dbbc498986493.png
-  detection_source_url: DemoKo/packages.config
+  detection_source_url: https://github.com/sGambolati/demoko/blob/master/DemoKo/packages.config
   detection_source: DemoKo/packages.config
   last_updated_by: Leandro Galluppi
   last_updated_on: 2016-04-02 16:07:04.000000000 Z
@@ -199,7 +199,19 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/14341/default_afb824345d39171426ecba1761288d02cb44b19c.png
-  detection_source_url: DemoKo/packages.config
+  detection_source_url: https://github.com/sGambolati/demoko/blob/master/DemoKo/packages.config
+  detection_source: DemoKo/packages.config
+  last_updated_by: Leandro Galluppi
+  last_updated_on: 2016-04-02 16:07:04.000000000 Z
+- name: Microsoft.AspNet.Providers.LocalDb
+  description: ASP.NET Universal Providers add provider support in ASP.NET 4 for all
+    editions of SQL Server 2005 and later and to SQL Azure
+  package_url: https://www.nuget.org/Microsoft.AspNet.Providers.LocalDb
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14681/default_48864d946ebda6ea32754eb8405d1d1897e6a8f6.png
   detection_source: DemoKo/packages.config
   last_updated_by: Leandro Galluppi
   last_updated_on: 2016-04-02 16:07:04.000000000 Z
@@ -213,7 +225,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/12930/default_f8bf1110f8f0beaf5fae35865de7f77ccd1139f0.png
-  detection_source_url: DemoKo/packages.config
+  detection_source_url: https://github.com/sGambolati/demoko/blob/master/DemoKo/packages.config
   detection_source: DemoKo/packages.config
   last_updated_by: Leandro Galluppi
   last_updated_on: 2016-04-02 16:07:04.000000000 Z
@@ -228,7 +240,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/12966/default_bd8397841d0aa5de035298a9130ee2dc9d9b0ece.png
-  detection_source_url: DemoKo/packages.config
+  detection_source_url: https://github.com/sGambolati/demoko/blob/master/DemoKo/packages.config
   detection_source: DemoKo/packages.config
   last_updated_by: Leandro Galluppi
   last_updated_on: 2016-04-02 16:07:04.000000000 Z
@@ -243,7 +255,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/12923/default_039376cf26bae25623c106aea6185b89980a1e50.png
-  detection_source_url: DemoKo/packages.config
+  detection_source_url: https://github.com/sGambolati/demoko/blob/master/DemoKo/packages.config
   detection_source: DemoKo/packages.config
   last_updated_by: Leandro Galluppi
   last_updated_on: 2016-04-02 16:07:04.000000000 Z
@@ -258,7 +270,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/12870/default_3ee9e3bfd65cbae9db28ab78b712a58bcd81af27.png
-  detection_source_url: DemoKo/packages.config
+  detection_source_url: https://github.com/sGambolati/demoko/blob/master/DemoKo/packages.config
   detection_source: DemoKo/packages.config
   last_updated_by: Leandro Galluppi
   last_updated_on: 2016-04-02 16:07:04.000000000 Z
@@ -272,7 +284,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/12879/default_4b18ad6ce0b5b2bd1dc822207c362ce8e0f74098.png
-  detection_source_url: DemoKo/packages.config
+  detection_source_url: https://github.com/sGambolati/demoko/blob/master/DemoKo/packages.config
   detection_source: DemoKo/packages.config
   last_updated_by: Leandro Galluppi
   last_updated_on: 2016-04-02 16:07:04.000000000 Z
@@ -287,7 +299,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/12978/default_d871263d8798790404638a4d3692cc70b6389166.png
-  detection_source_url: DemoKo/packages.config
+  detection_source_url: https://github.com/sGambolati/demoko/blob/master/DemoKo/packages.config
   detection_source: DemoKo/packages.config
   last_updated_by: Leandro Galluppi
   last_updated_on: 2016-04-02 16:07:04.000000000 Z
@@ -302,7 +314,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/12947/default_d871263d8798790404638a4d3692cc70b6389166.png
-  detection_source_url: DemoKo/packages.config
+  detection_source_url: https://github.com/sGambolati/demoko/blob/master/DemoKo/packages.config
   detection_source: DemoKo/packages.config
   last_updated_by: Leandro Galluppi
   last_updated_on: 2016-04-02 16:07:04.000000000 Z
@@ -317,7 +329,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/12875/default_3ee9e3bfd65cbae9db28ab78b712a58bcd81af27.png
-  detection_source_url: DemoKo/packages.config
+  detection_source_url: https://github.com/sGambolati/demoko/blob/master/DemoKo/packages.config
   detection_source: DemoKo/packages.config
   last_updated_by: Leandro Galluppi
   last_updated_on: 2016-04-02 16:07:04.000000000 Z
@@ -331,7 +343,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/12927/default_2aeaea161c566d1abfbaf3f2206fda12b1eea9cd.png
-  detection_source_url: DemoKo/packages.config
+  detection_source_url: https://github.com/sGambolati/demoko/blob/master/DemoKo/packages.config
   detection_source: DemoKo/packages.config
   last_updated_by: Leandro Galluppi
   last_updated_on: 2016-04-02 16:07:04.000000000 Z
@@ -344,7 +356,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13618/default_cf7c9bcc8caff1ab5c9fba9a4cc235b100a0a0b2.png
-  detection_source_url: DemoKo/packages.config
+  detection_source_url: https://github.com/sGambolati/demoko/blob/master/DemoKo/packages.config
   detection_source: DemoKo/packages.config
   last_updated_by: Leandro Galluppi
   last_updated_on: 2016-04-03 22:58:06.000000000 Z
@@ -358,7 +370,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13143/default_048f7c1081704627a12b8b5e168cfdbc9f28fb33.png
-  detection_source_url: DemoKo/packages.config
+  detection_source_url: https://github.com/sGambolati/demoko/blob/master/DemoKo/packages.config
   detection_source: DemoKo/packages.config
   last_updated_by: Leandro Galluppi
   last_updated_on: 2016-04-03 22:58:06.000000000 Z
@@ -372,7 +384,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/nuget/image.png
-  detection_source_url: DemoKo/packages.config
+  detection_source_url: https://github.com/sGambolati/demoko/blob/master/DemoKo/packages.config
   detection_source: DemoKo/packages.config
   last_updated_by: Leandro Galluppi
   last_updated_on: 2016-04-02 16:07:04.000000000 Z
@@ -393,7 +405,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13115/default_a057bdad489be3cb053d372a68695da4ac94962d.png
-  detection_source_url: DemoKo/packages.config
+  detection_source_url: https://github.com/sGambolati/demoko/blob/master/DemoKo/packages.config
   detection_source: DemoKo/packages.config
   last_updated_by: Leandro Galluppi
   last_updated_on: 2016-04-02 16:07:04.000000000 Z
@@ -408,7 +420,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13119/default_f0c74e534077001eb65a152707758ce46a2dc970.png
-  detection_source_url: DemoKo/packages.config
+  detection_source_url: https://github.com/sGambolati/demoko/blob/master/DemoKo/packages.config
   detection_source: DemoKo/packages.config
   last_updated_by: Leandro Galluppi
   last_updated_on: 2016-04-03 22:58:06.000000000 Z
@@ -435,7 +447,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13135/default_048f7c1081704627a12b8b5e168cfdbc9f28fb33.png
-  detection_source_url: DemoKo/packages.config
+  detection_source_url: https://github.com/sGambolati/demoko/blob/master/DemoKo/packages.config
   detection_source: DemoKo/packages.config
   last_updated_by: Leandro Galluppi
   last_updated_on: 2016-04-02 16:07:04.000000000 Z
