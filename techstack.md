@@ -42,7 +42,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [sGambolati/demoko](https://github.com/sGambolati/demoko)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|32<br/>Tools used|12/14/23 <br/>Report generated|
+|32<br/>Tools used|01/04/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -197,7 +197,7 @@ Full tech stack [here](/techstack.md)
 |[Microsoft.Web.Infrastructure](https://www.nuget.org/Microsoft.Web.Infrastructure)|v1.0.0|04/02/16|Leandro Galluppi |N/A|N/A|
 |[Microsoft.jQuery.Unobtrusive.Ajax](https://www.nuget.org/Microsoft.jQuery.Unobtrusive.Ajax)|v2.0.30506|04/03/16|Leandro Galluppi |N/A|N/A|
 |[Microsoft.jQuery.Unobtrusive.Validation](https://www.nuget.org/Microsoft.jQuery.Unobtrusive.Validation)|v2.0.30506|04/03/16|Leandro Galluppi |Apache-2.0|N/A|
-|[Newtonsoft.Json](https://www.nuget.org/Newtonsoft.Json)|v4.5.11|04/02/16|Leandro Galluppi |MIT|[](https://github.com/advisories/GHSA-5crp-9r3c-p9vr) (High)|
+|[Newtonsoft.Json](https://www.nuget.org/Newtonsoft.Json)|v4.5.11|04/02/16|Leandro Galluppi |MIT|[](https://github.com/advisories/GHSA-8rfx-6mr3-5jh3) (High)<br/>[CVE-2024-21907](https://github.com/advisories/GHSA-5crp-9r3c-p9vr) (High)|
 |[WebGrease](https://www.nuget.org/WebGrease)|v1.3.0|04/02/16|Leandro Galluppi |Apache-2.0|N/A|
 |[jQuery.Validation](https://www.nuget.org/jQuery.Validation)|v1.10.0|04/03/16|Leandro Galluppi |MIT|[CVE-2021-21252](https://github.com/advisories/GHSA-jxwx-85vp-gvwm) (High)<br/>[CVE-2021-43306](https://github.com/advisories/GHSA-j9m2-h2pv-wvph) (Low)|
 |[knockoutjs](https://www.nuget.org/knockoutjs)|v3.4.0|04/02/16|Leandro Galluppi |MIT|N/A|
